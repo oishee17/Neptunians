@@ -1,9 +1,9 @@
-import express, { Request, Response } from 'express';
+import express, { type Request, type Response } from 'express';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import dotenv from 'dotenv';
 import { GoogleGenAI } from '@google/genai';
-import { CURATED_EXOPLANETS, ExoplanetData } from './server/data/fallbackPlanets.ts';
+import { CURATED_EXOPLANETS, type ExoplanetData } from './server/data/fallbackPlanets.ts';
 import {
   registerUser,
   loginUser,

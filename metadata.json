@@ -2,5 +2,7 @@
   "name": "Neptunians – Interactive Exoplanet Discovery Explorer",
   "description": "Explore confirmed exoplanets beyond our solar system using real NASA Exoplanet Archive astronomical data, 3D planetary systems, gravity calculators, habitable zone models, and comparative space science.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }
