@@ -1,0 +1,69 @@
+{
+  "users": [
+    {
+      "id": "usr_2010196ef0971f5f84559ad6",
+      "email": "test_astronomer@observatory.org",
+      "displayName": "Dr. Kepler",
+      "passwordHash": "ec9aa30b636685d54d4eed811f43643cf01d7d062fbfebf6be0013983f9b8b8b93fd2fbb035291a47c3c2078d1a55637a2be5be008607d8fa7805a177ef46b40",
+      "salt": "247d39af3ffa855ace6dfcf8907538fa",
+      "createdAt": "2026-11-11T14:37:51.139Z"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "tok_e49266bf9721070e6330935a36a6b274227eb6356835e3914a031b4dce93fd36",
+      "userId": "usr_2010196ef0971f5f84559ad6",
+      "createdAt": "2026-11-11T14:37:51.140Z",
+      "expiresAt": "2026-12-11T14:37:51.140Z"
+    },
+    {
+      "token": "tok_ef2d55b04e4e8e1cc9a4624470fb5d2017e381af181e2a630dc1599ed98b3b93",
+      "userId": "usr_2010196ef0971f5f84559ad6",
+      "createdAt": "2026-11-11T14:38:02.757Z",
+      "expiresAt": "2026-12-11T14:38:02.757Z"
+    }
+  ],
+  "savedPlanets": {
+    "usr_2010196ef0971f5f84559ad6": [
+      {
+        "planetName": "TRAPPIST-1 e",
+        "savedAt": "2026-11-11T14:37:51.139Z",
+        "notes": "Primary target in conservative habitable zone"
+      },
+      {
+        "planetName": "Kepler-452 b",
+        "savedAt": "2026-11-11T14:37:51.139Z",
+        "notes": "Earth-size analog candidate orbiting G2V star"
+      }
+    ]
+  },
+  "collections": {
+    "usr_2010196ef0971f5f84559ad6": [
+      {
+        "id": "col_13d66d3f3e9bb985",
+        "userId": "usr_2010196ef0971f5f84559ad6",
+        "name": "Habitable Zone Candidates",
+        "description": "Worlds within circumstellar habitable zone boundaries",
+        "planetNames": [
+          "TRAPPIST-1 e",
+          "Kepler-452 b"
+        ],
+        "createdAt": "2026-11-11T14:37:51.139Z",
+        "updatedAt": "2026-11-11T14:37:51.139Z"
+      },
+      {
+        "id": "col_abeb3f5e027cb388",
+        "userId": "usr_2010196ef0971f5f84559ad6",
+        "name": "JWST Priority Targets",
+        "description": "Atmospheric transmission spectroscopy candidate planets",
+        "planetNames": [
+          "WASP-39 b",
+          "TRAPPIST-1 e",
+          "K2-18 b"
+        ],
+        "createdAt": "2026-11-11T14:37:58.854Z",
+        "updatedAt": "2026-11-11T14:37:58.854Z"
+      }
+    ]
+  }
+}
